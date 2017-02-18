@@ -24,5 +24,8 @@ if result.is_valid():
     print("Humidity: %d %%" % result.humidity)
 else:
     print("Error: %d" % result.error_code)
-
 For working example, see dht11_example.py (you probably need to adjust pin for your configuration)
+
+License
+
+This project is licensed under the terms of the MIT license.
